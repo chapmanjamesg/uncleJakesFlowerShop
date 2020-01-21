@@ -1,18 +1,35 @@
-class Rose:
-    pass
+class Flower:
+    def __init__(self, stem_length, organic):
+        self.stem_length = stem_length
+        self.organic = organic
 
-class Daisy:
-    pass
 
-class Babbys_Breath:
-    pass
+class Rose(Flower): 
+    def __init__(self, color):
+        super.__init__(stem_length, organic)
+        self.color = color
 
-class Poppies:
-    pass
+class Daisy(Flower):
+    def __init__(self):
+        super.__init__(stem_length, organic)
 
-class Lillies:
-    pass
+class Babbys_Breath():
+    def __init__(self):
+        self.stem_length = 0
+        self.organic = ""
 
-class Alstroemeria:
-    pass
+class Poppies():
+    def __init__(self):
+        self.stem_length = 0
+        self.organic = ""
+
+class Lillies():
+    def __init__(self):
+        self.stem_length = 0
+        self.organic = ""
+
+class Alstroemeria():
+    def __init__(self):
+        self.stem_length = 0 
+        self.organic = ""
 
